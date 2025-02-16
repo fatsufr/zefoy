@@ -4,9 +4,6 @@ try:
     import ctypes, platform, os, time
     import selenium, requests, webbrowser
 
-except ImportError:
-    input("You do not have all of the modules required installed.")
-    os._exit(1)
 
 text = """
  ███████ ███████ ███████  ██████  ██    ██ 
